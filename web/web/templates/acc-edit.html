@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_styles/acc-edit.css">
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="login.html" class="link_button">Sign in</a>
+    <a href="#" class="logoutLink_button" id="logout">Sign out</a>
+    <a href="acc-reg.html" class="link_button">Sign up</a>
+    <a href="acc.html" class="link_button">Account</a>
+</nav>
+<main class="main">
+    <form class="form">
+        <h1>Edit account</h1>
+        <div>
+            <label>
+                <input placeholder="Enter username"  type = "text" class="field" id="username">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Enter first name"  type = "text" class="field" id="name" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Enter last name"  type = "text" class="field" id="surname" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Enter password" id="password" type = "password" class="field">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Repeat password" id="repeat_password" type = "password" class="field">
+            </label>
+        </div>
+        <div>
+                <button class="edit_button">Save</button>
+        </div>
+        <p class="error"></p>
+    </form>
+
+    </div>
+</main>
+
+<script src="../scripts/acc-edit.js"></script>
+
+</body>
+</html>
