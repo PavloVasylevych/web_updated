@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_styles/acc-reg.css">
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<nav class="navbar">
+    <a href="login.html" class="link_button">Sign in</a>
+    <a href="#" class="link_button">Sign out</a>
+    <a href="acc-reg.html" class="link_button">Sign up</a>
+    <a href="acc.html" class="link_button">Account</a>
+</nav>
+
+<main class="main">
+    <form class="form">
+
+        <h1>Registration</h1>
+        <div>
+            <label>
+                <input placeholder="name" type = "text" class="field" id="name" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="surname" type = "text" class="field" id="surname" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="username" type = "text" class="field" id="username" required>
+            </label>
+        </div>
+    <div>
+        <label>
+            <input placeholder="password" type = "password" class="field" id="password" required>
+        </label>
+    </div>
+    <div>
+        <label>
+            <input placeholder="Confirm password" id="repeat_password" type = "password" class="field" required>
+        </label>
+    </div>
+
+        <div>
+                <button class="signUpButton">Create account</button>
+        </div>
+
+        <p class="error"></p>
+    </form>
+    <a href="login.html" class="login_button">Already have an account? - Sign in!</a>
+
+
+</main>
+
+<script src="../scripts/acc-reg.js"></script>
+
+</body>
+</html>
